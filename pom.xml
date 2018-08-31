@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.scmgalaxy.mavensample</groupId>
-  <artifactId>ramcoxddddddddddddddd</artifactId>
+  <artifactId>my-maven</artifactId>
   <packaging>jar</packaging>
   <version>5.0.0</version>
   <name>my-maven</name>
@@ -40,14 +40,14 @@
   
 <distributionManagement>
     <repository>
-        <id>bf25c3ac0cd4</id>
-        <name>bf25c3ac0cd4-releases</name>
-        <url>http://13.233.28.211:8085/artifactory/nokia</url>
+        <id>bdeployment</id>
+        <name>internal release1</name>
+        <url>http://172.16.135.133:8082/nexus/content/repositories/dpk/</url>
     </repository>
     <snapshotRepository>
-        <id>bf25c3ac0cd4</id>
-        <name>bf25c3ac0cd4-snapshots</name>
-        <url>http://13.233.28.211:8085/artifactory/nokia</url>
+        <id>deployment</id>
+        <name>internal snapshot1</name>
+        <url>http://172.16.135.133:8082/nexus/content/repositories/dpksnap/</url>
     </snapshotRepository>
 </distributionManagement>
 
