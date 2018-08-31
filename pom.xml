@@ -40,7 +40,7 @@
   
 <distributionManagement>
     <repository>
-        <id>bdeployment</id>
+        <id>deployment</id>
         <name>internal release1</name>
         <url>http://172.16.135.133:8082/nexus/content/repositories/dpk/</url>
     </repository>
